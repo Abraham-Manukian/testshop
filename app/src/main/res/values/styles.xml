@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="select_category_button">
-        <item name="background"> @drawable/button_select_category_on</item>
+        <item name="android:buttonStyle"> @drawable/button_select_category_off</item>
     </style>
 </resources>
