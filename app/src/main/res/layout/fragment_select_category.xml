@@ -35,7 +35,7 @@
                 android:src="@drawable/ic_button_select_category"
                 android:layout_width="71dp"
                 android:layout_height="71dp"
-                android:background="@drawable/button_select_category"
+                android:background="@drawable/button_select_category_off"
                 android:elevation="20dp"/>
 
             <androidx.constraintlayout.utils.widget.ImageFilterButton
@@ -43,7 +43,7 @@
                 android:src="@drawable/ic_button_select_category"
                 android:layout_width="71dp"
                 android:layout_height="71dp"
-                android:background="@drawable/button_select_category"
+                android:background="@drawable/button_select_category_off"
                 android:elevation="20dp"/>
 
             <androidx.constraintlayout.utils.widget.ImageFilterButton
@@ -51,7 +51,7 @@
                 android:src="@drawable/ic_button_select_category"
                 android:layout_width="71dp"
                 android:layout_height="71dp"
-                android:background="@drawable/button_select_category"
+                android:background="@drawable/button_select_category_off"
                 android:elevation="20dp"/>
         </LinearLayout>
     </HorizontalScrollView>
