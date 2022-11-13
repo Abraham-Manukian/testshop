@@ -11,16 +11,13 @@ import com.example.testshop.databinding.FragmentSelectCategoryBinding
 
 class select_category : Fragment() {
 
-
-    var a = 10
     private lateinit var binding: FragmentSelectCategoryBinding
-    var flag = true
 
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentSelectCategoryBinding.inflate(inflater, container, false)
 
         binding.button1.setOnClickListener {
@@ -48,12 +45,6 @@ class select_category : Fragment() {
         }
         return binding.root
     }
-   /* var buttons = arrayOf(
-        binding.button1,
-        binding.button2,
-        binding.button3,
-        binding.button4)*/
-
 
     private fun buttonclick (){
         binding.button1.setImageResource(R.drawable.ic_button_select_category_phone_off)
@@ -73,7 +64,7 @@ class select_category : Fragment() {
 
     companion object {
         @JvmStatic
-        fun newInstance() = select_category()
+        fun fragment1() = select_category()
     }
 
 
