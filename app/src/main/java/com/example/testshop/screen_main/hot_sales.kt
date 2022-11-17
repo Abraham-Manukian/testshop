@@ -34,16 +34,16 @@ class hot_sales : Fragment() {
 
         val list = mutableListOf<CarouselItem>()
         list.add(CarouselItem(
-            imageDrawable = R.drawable.icone1_hot_sales,
+            imageUrl = "https://img.ibxk.com.br/2020/09/23/23104013057475.jpg?w=1120&h=420&mode=crop&scale=both",
             caption = "Iphone 10, Súper. Mega. Rápido."
         ))
         list.add(CarouselItem(
-            imageDrawable = R.drawable.icone1_hot_sales,
-            caption = "Iphone 11, Súper. Mega. Rápido."
+            imageUrl = "https://cdn-2.tstatic.net/kupang/foto/bank/images/pre-order-samsung-galaxy-a71-laris-manis-inilah-rekomendasi-ponsel-harga-rp-6-jutaan.jpg",
+            caption = "Samsung Galaxy A71, Súper. Mega. Rápido."
         ))
         list.add(CarouselItem(
-            imageDrawable = R.drawable.icone1_hot_sales,
-            caption = "Iphone 12, Súper. Mega. Rápido."
+            imageUrl = "https://static.digit.in/default/942998b8b4d3554a6259aeb1a0124384dbe0d4d5.jpeg",
+            caption = "Xiaomi Mi 11, Súper. Mega. Rápido."
         ))
         carousel.setData(list)
         return binding.root

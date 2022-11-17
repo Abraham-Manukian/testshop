@@ -26,28 +26,28 @@ class select_category : Fragment() {
             buttonclick()
             binding.button1.setImageResource(R.drawable.ic_button_select_category_phone_on)
             binding.button1.setBackgroundResource(R.drawable.button_select_category)
-            binding.phones.setTextColor(R.color.buttonOn)
+            binding.phones.setTextColor(R.color.textOn)
         }
 
         binding.button2.setOnClickListener {
             buttonclick()
             binding.button2.setImageResource(R.drawable.ic_button_select_category_comp_on)
             binding.button2.setBackgroundResource(R.drawable.button_select_category)
-            binding.computer.setTextColor(R.color.buttonOn)
+            binding.computer.setTextColor(R.color.textOn)
         }
 
         binding.button3.setOnClickListener {
             buttonclick()
             binding.button3.setImageResource(R.drawable.ic_button_select_category_health_on)
             binding.button3.setBackgroundResource(R.drawable.button_select_category)
-            binding.health.setTextColor(R.color.buttonOn)
+            binding.health.setTextColor(R.color.textOn)
         }
 
         binding.button4.setOnClickListener {
             buttonclick()
             binding.button4.setImageResource(R.drawable.ic_button_select_category_book_on)
             binding.button4.setBackgroundResource(R.drawable.button_select_category)
-            binding.books.setTextColor(R.color.buttonOn)
+            binding.books.setTextColor(R.color.textOn)
         }
         return binding.root
     }
@@ -56,19 +56,19 @@ class select_category : Fragment() {
     private fun buttonclick (){
         binding.button1.setImageResource(R.drawable.ic_button_select_category_phone_off)
         binding.button1.setBackgroundResource(R.drawable.button_select_category_off)
-        binding.phones.setTextColor(R.color.black)
+        binding.phones.setTextColor(R.color.textOff)
 
         binding.button2.setImageResource(R.drawable.ic_button_select_category_comp_off)
         binding.button2.setBackgroundResource(R.drawable.button_select_category_off)
-        binding.computer.setTextColor(R.color.black)
+        binding.computer.setTextColor(R.color.textOff)
 
         binding.button3.setImageResource(R.drawable.ic_button_select_category_health_off)
         binding.button3.setBackgroundResource(R.drawable.button_select_category_off)
-        binding.health.setTextColor(R.color.black)
+        binding.health.setTextColor(R.color.textOff)
 
         binding.button4.setImageResource(R.drawable.ic_button_select_category_book_off)
         binding.button4.setBackgroundResource(R.drawable.button_select_category_off)
-        binding.books.setTextColor(R.color.black)
+        binding.books.setTextColor(R.color.textOff)
 
 
     }

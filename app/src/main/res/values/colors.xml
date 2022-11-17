@@ -10,5 +10,7 @@
     <color name="buttonOn">#FF6E4E</color>
     <color name="buttonOff">#FFFFFF</color>
     <color name="background">#F5F5F5</color>
+    <color name="textOn">#FF6E4E</color>
+    <color name="textOff">#010035</color>
 
 </resources>

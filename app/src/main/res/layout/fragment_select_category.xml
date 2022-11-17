@@ -104,8 +104,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="20dp"
-                    android:text="Phones"
-                    android:textAppearance="@style/phones"
+                    android:text="@string/phones"
+                    android:textAppearance="@style/text_on"
                     tools:ignore="InvalidId,MissingConstraints" />
 
                 <TextView
@@ -114,8 +114,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="25dp"
-                    android:text="Computer"
-                    android:textAppearance="@style/phones"
+                    android:text="@string/computer"
+                    android:textAppearance="@style/text_off"
                     tools:ignore="InvalidId,MissingConstraints" />
 
                 <TextView
@@ -124,8 +124,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="25dp"
-                    android:text="Health"
-                    android:textAppearance="@style/phones"
+                    android:text="@string/health"
+                    android:textAppearance="@style/text_off"
                     tools:ignore="MissingConstraints" />
 
                 <TextView
@@ -134,8 +134,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="35dp"
                     android:layout_marginEnd="20dp"
-                    android:text="Books"
-                    android:textAppearance="@style/phones"
+                    android:text="@string/books"
+                    android:textAppearance="@style/text_off"
                     tools:ignore="MissingConstraints" />
             </LinearLayout>
         </LinearLayout>
